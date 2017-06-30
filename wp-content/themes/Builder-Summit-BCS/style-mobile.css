@@ -259,21 +259,27 @@
 	margin: 0;
 }
 
-/* ROTATOR */
+/*********************************************
+	CUSTOM WSI STYLES
+*********************************************/
+
+/* ROTATOR BLOCK - HOME */
 
 #builder-module-5953ddef08e53-background-wrapper {
 	padding: 0;
 }
 
-/* 3-COL CTA BLOCK */
+/* 3-COL CTA BLOCK - HOME */
 
-#builder-module-5953ec64c1ff4-background-wrapper {
+#builder-module-5953ec64c1ff4-background-wrapper
+ {
 	padding: 0 .75em;
 }
 
 #builder-module-5953ec64c1ff4 .builder-module-column-2-outer-wrapper,
 #builder-module-5953ec64c1ff4 .builder-module-column-1-outer-wrapper,
-#builder-module-5953ec64c1ff4 .builder-module-column-3-outer-wrapper {
+#builder-module-5953ec64c1ff4 .builder-module-column-3-outer-wrapper
+ {
 	padding: 5px;
 }
 
@@ -284,17 +290,22 @@
 
 /* 3 COL UPPER FOOTER BLOCK - GLOBAL */
 
-	#builder-module-595402ede3364-background-wrapper {
+	#builder-module-595402ede3364-background-wrapper,
+	#builder-module-595686d609b37-background-wrapper {
 		padding: 0 .75em;
 	}
 
-	#builder-module-595402ede3364 .builder-module-column-2-outer-wrapper,
 	#builder-module-595402ede3364 .builder-module-column-1-outer-wrapper,
-	#builder-module-595402ede3364 .builder-module-column-3-outer-wrapper {
+	#builder-module-595402ede3364 .builder-module-column-2-outer-wrapper,
+	#builder-module-595402ede3364 .builder-module-column-3-outer-wrapper
+	#builder-module-595686d609b37 .builder-module-column-1-outer-wrapper,
+	#builder-module-595686d609b37 .builder-module-column-2-outer-wrapper,
+	#builder-module-595686d609b37 .builder-module-column-3-outer-wrapper {
 		padding: 5px;
 	}
 
-	#builder-module-595402ede3364 .builder-module-column-2-outer-wrapper {
+	#builder-module-595402ede3364 .builder-module-column-2-outer-wrapper,
+	#builder-module-595686d609b37 .builder-module-column-2-outer-wrapper {
 		border-left: none;
 		border-right: none;
 	}
@@ -305,4 +316,11 @@
 
 .builder-module-bottom-background-wrapper {
 	padding: 0;
+}
+
+/* INTERIOR PAGES*/
+
+.builder-module-content .hentry {
+	border: 0;
+	padding: 0
 }

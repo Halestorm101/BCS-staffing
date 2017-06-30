@@ -2048,12 +2048,12 @@ body {
 	height: 290px;
 }
 
-#builder-module-5953dbc1c639c-outer-wrapper {
+#builder-module-5953dbc1c639c-outer-wrapper, #builder-module-595686d609942-outer-wrapper  {
 	padding: 0;
 	overflow: hidden;
 }
 
-#builder-module-5953dbc1c639c img {
+#builder-module-5953dbc1c639c img, #builder-module-595686d609942 img {
 	margin: 40px auto 0 auto;
 }
 
@@ -2063,7 +2063,7 @@ body {
 
 /* SOCIAL MEDIA BLOCK - GLOBAL */
 
-#builder-module-5953de9fe15b7-background-wrapper {
+#builder-module-5953de9fe15b7-background-wrapper, #builder-module-595686d609999-background-wrapper {
 	background-color: transparent;
 	margin-top: -45px;
 	overflow: hidden;
@@ -2172,46 +2172,55 @@ body {
 
 /* 3 COL UPPER FOOTER BLOCK - GLOBAL */
 
-#builder-module-595402ede3364-background-wrapper {
+#builder-module-595402ede3364-background-wrapper,
+#builder-module-595686d609b37-background-wrapper {
 		background-color: #535352;
 		color: #fff;
 		padding: 55px 220px;
 		padding: 3.438em 13.750em;
 	}
 
-#builder-module-595402ede3364 .builder-module-sidebar .widget-background-wrapper {
+#builder-module-595402ede3364 .builder-module-sidebar .widget-background-wrapper,
+#builder-module-595686d609b37 .builder-module-sidebar .widget-background-wrapper {
 		background: transparent;
 }
 
-#builder-module-595402ede3364 a {
+#builder-module-595402ede3364 a,
+#builder-module-595686d609b37 a {
 	color: #fff;
 	text-decoration: none;
 }
 
-#builder-module-595402ede3364 a:hover {
+#builder-module-595402ede3364 a:hover,
+#builder-module-595686d609b37 a:hover {
 	text-decoration: underline;
 }
 
-#builder-module-595402ede3364 li {
+#builder-module-595402ede3364 li,
+#builder-module-595686d609b37 li {
 padding-bottom: 3px;
 margin-bottom: 3px;
 }
 
-#builder-module-595402ede3364 h4.widget-title {
+#builder-module-595402ede3364 h4.widget-title,
+#builder-module-595686d609b37 h4.widget-title {
 	color: #00b7f1;
 	font-size: 20px;
 	font-size: 1.250em;
 	font-weight: normal;
 }
 
-#builder-module-595402ede3364 .builder-module-column-2-outer-wrapper {
+#builder-module-595402ede3364 .builder-module-column-2-outer-wrapper,
+#builder-module-595686d609b37 .builder-module-column-2-outer-wrapper {
 	border-left: 1px solid #424242;
 	border-right: 1px solid #424242;
 	padding: 0 50px;
 }
 
 #builder-module-595402ede3364 .builder-module-column-1-outer-wrapper,
-#builder-module-595402ede3364 .builder-module-column-3-outer-wrapper {
+#builder-module-595402ede3364 .builder-module-column-3-outer-wrapper,
+#builder-module-595686d609b37 .builder-module-column-1-outer-wrapper,
+#builder-module-595686d609b37 .builder-module-column-3-outer-wrapper {
 	padding: 0 50px;
 }
 
@@ -2230,4 +2239,15 @@ margin-bottom: 3px;
 .builder-module-bottom-background-wrapper a {
 	color: #fff;
 	text-decoration: none;
+}
+
+/* INTERIOR PAGES*/
+
+.builder-module-content .hentry {
+	border: 0;
+	padding: 0
+}
+
+.entry-header {
+	display: none;
 }

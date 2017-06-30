@@ -97,15 +97,17 @@
 	padding-top: 3em;
 }
 
-/* CUSTOM */
+/*********************************************
+	CUSTOM WSI STYLES
+*********************************************/
 
-/* ROTATOR */
+/* ROTATOR BLOCK - HOME */
 
 #builder-module-5953ddef08e53-background-wrapper {
 	padding: 0;
 }
 
-/* 3-COL CTA BLOCK */
+/* 3-COL CTA BLOCK - HOME */
 
 #builder-module-5953ec64c1ff4-background-wrapper {
 	padding: 0 .75em;
@@ -119,7 +121,8 @@
 
 /* 3 COL UPPER FOOTER BLOCK - GLOBAL */
 
-#builder-module-595402ede3364-background-wrapper {
+#builder-module-595402ede3364-background-wrapper,
+#builder-module-595686d609b37-background-wrapper {
 	padding: 0 .75em;
 }
 
@@ -127,4 +130,11 @@
 
 .builder-module-bottom-background-wrapper {
 	padding: 0;
+}
+
+/* INTERIOR PAGES*/
+
+.builder-module-content .hentry {
+	border: 0;
+	padding: 0
 }
