@@ -291,25 +291,46 @@
 /* 3 COL UPPER FOOTER BLOCK - GLOBAL */
 
 	#builder-module-595402ede3364-background-wrapper,
-	#builder-module-595686d609b37-background-wrapper {
+	#builder-module-595686d609b37-background-wrapper,
+	#builder-module-598372196f41b-background-wrapper,
+	#builder-module-551edf5ef2afc-background-wrapper {
 		padding: 0 .75em;
 	}
 
 	#builder-module-595402ede3364 .builder-module-column-1-outer-wrapper,
 	#builder-module-595402ede3364 .builder-module-column-2-outer-wrapper,
-	#builder-module-595402ede3364 .builder-module-column-3-outer-wrapper
+	#builder-module-595402ede3364 .builder-module-column-3-outer-wrapper,
 	#builder-module-595686d609b37 .builder-module-column-1-outer-wrapper,
 	#builder-module-595686d609b37 .builder-module-column-2-outer-wrapper,
-	#builder-module-595686d609b37 .builder-module-column-3-outer-wrapper {
+	#builder-module-595686d609b37 .builder-module-column-3-outer-wrapper,
+	#builder-module-598372196f41b .builder-module-column-1-outer-wrapper,
+	#builder-module-598372196f41b .builder-module-column-2-outer-wrapper,
+	#builder-module-598372196f41b .builder-module-column-3-outer-wrapper,
+	#builder-module-551edf5ef2afc .builder-module-column-1-outer-wrapper,
+	#builder-module-551edf5ef2afc .builder-module-column-2-outer-wrapper,
+	#builder-module-551edf5ef2afc .builder-module-column-3-outer-wrapper {
 		padding: 5px;
 	}
 
 	#builder-module-595402ede3364 .builder-module-column-2-outer-wrapper,
-	#builder-module-595686d609b37 .builder-module-column-2-outer-wrapper {
+	#builder-module-595686d609b37 .builder-module-column-2-outer-wrapper,
+	#builder-module-598372196f41b .builder-module-column-2-outer-wrapper,
+	#builder-module-551edf5ef2afc .builder-module-column-2-outer-wrapper
+	 {
 		border-left: none;
 		border-right: none;
 	}
 
+/* HOME PAGE TEXT - HOME */
+
+	#builder-module-597b84aac637b-background-wrapper {
+		 padding: 1em 1.25em;
+	}
+
+	#builder-module-5953f655415a8-outer-wrapper {
+		padding: 25px 20px;
+		text-align: left;
+	}
 
 
 /* FOOTER BLOCK - GLOBAL*/
@@ -323,4 +344,8 @@
 .builder-module-content .hentry {
 	border: 0;
 	padding: 0
+}
+
+.builder-module-background-wrapper {
+	padding: 0;
 }

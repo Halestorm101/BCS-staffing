@@ -1,0 +1,22 @@
+@media screen and (max-width 1280px) {
+
+
+#builder-module-595402ede3364-background-wrapper,
+#builder-module-595686d609b37-background-wrapper,
+#builder-module-551edf5ef2afc-background-wrapper {
+		background-color: #535352;
+		color: #fff;
+		padding: 55px 25px;
+		padding: 3.438em 1.563em;
+	}
+
+	.builder-module-background-wrapper {
+		padding: 0;
+	}
+
+	#builder-module-5953f655415a8-outer-wrapper {
+		padding: 25px 130px;
+		text-align: left;
+	}
+
+}

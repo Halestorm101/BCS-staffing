@@ -162,4 +162,4 @@ function it_summit_the_post_thumbnail_caption() {
   return $caption;
 }
 
-add_theme_support( 'builder-responsive', array('tablet-width' => '1024px', 'mobile-width' => '600px' ) );
+add_theme_support( 'builder-responsive', array('tablet-width' => '1280px', 'mobile-width' => '1040px' ) );

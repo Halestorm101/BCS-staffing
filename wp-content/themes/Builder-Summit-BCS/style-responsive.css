@@ -101,6 +101,12 @@
 	CUSTOM WSI STYLES
 *********************************************/
 
+/* LOGO */
+
+#builder-module-5953dbc1c639c img, #builder-module-595686d609942 img, #builder-module-598372196b985 img, #builder-module-5991da60d6d3e img {
+    margin: 2px auto 0 auto;
+}
+
 /* ROTATOR BLOCK - HOME */
 
 #builder-module-5953ddef08e53-background-wrapper {
@@ -109,9 +115,7 @@
 
 /* 3-COL CTA BLOCK - HOME */
 
-#builder-module-5953ec64c1ff4-background-wrapper {
-	padding: 0 .75em;
-}
+
 
 #builder-module-5953ec64c1ff4 .builder-module-column-2-outer-wrapper,
 #builder-module-5953ec64c1ff4 .builder-module-column-1-outer-wrapper,
@@ -119,12 +123,40 @@
 	padding: 5px;
 }
 
+#builder-module-595402ede3364-background-wrapper,
+#builder-module-595686d609b37-background-wrapper {
+		background-color: #535352;
+		color: #fff;
+		padding: 55px 100px;
+		padding: 3.438em 6.250em;
+	}
+
 /* 3 COL UPPER FOOTER BLOCK - GLOBAL */
 
 #builder-module-595402ede3364-background-wrapper,
-#builder-module-595686d609b37-background-wrapper {
+#builder-module-595686d609b37-background-wrapper,
+#builder-module-598372196f41b-backgrounbd-wrapper,
+#builder-module-551edf5ef2afc-background-wrapper {
 	padding: 0 .75em;
 }
+
+/* HOME PAGE TEXT - HOME */
+
+#builder-module-597b84aac637b-background-wrapper {
+	 padding: 1em 7.50em;
+}
+
+.home-box {
+    width: 100%
+	}
+
+	#builder-module-5953f655415a8-outer-wrapper {
+		padding: 25px 75px;
+		text-align: left;
+	}
+
+
+
 
 /* FOOTER BLOCK - GLOBAL*/
 
@@ -137,4 +169,8 @@
 .builder-module-content .hentry {
 	border: 0;
 	padding: 0
+}
+
+.builder-module-background-wrapper {
+	padding: 0;
 }
