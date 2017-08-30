@@ -2028,8 +2028,18 @@ img {
 	padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Myriad Pro", Arial, sans-serif;
+	color: #00b7f1;
+	font-weight: 500;
+}
+
 p {
 	font-family: "Myriad Pro", Arial, sans-serif;
+}
+
+a {
+	color: #00b7f1;
 }
 
 #builder-module-5991ebe86eb51 a:hover {
